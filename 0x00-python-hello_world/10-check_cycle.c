@@ -1,12 +1,12 @@
-#include "lists"
+#include "lists.h"
 
 /**
- * check cycle - checks if a linked list contains a cycle
+ * check_cycle - checks if a linked list contains a cycle
  * @list: pointer to head of list
  * Return: 0 if there is a cycle, 1 if there is none
  */
 
-int check_cycle(listint_T *list)
+int check_cycle(listint_t *list)
 {
 	listint_t *slow = list;
 	listint_t *fast = list;
